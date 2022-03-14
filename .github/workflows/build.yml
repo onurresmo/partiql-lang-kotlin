@@ -9,6 +9,7 @@ on:
       # forked PRs, once for the push and then once for opening the PR.
       # Taken from https://github.community/t/how-to-trigger-an-action-on-push-or-pull-request-but-not-both/16662/10
       - '**:**'
+  workflow_dispatch:
 
 jobs:
   test:
